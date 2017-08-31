@@ -33,7 +33,7 @@ E0 = 1/N .* E0;
 % figure(11)
 % plot(diff(l),'.')
 
-% figure(12)
+figure(100)
 [diff_u, diff_l] = envelope(diff(l), 200, 'peaks');
 plot(diff_u, '.')
 
